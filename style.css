@@ -1,0 +1,396 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+   
+
+html{
+ cursor: url("cursor2.png"), auto; 
+}
+
+h1 {
+  font-size:2.5vw;
+}
+
+h2 {
+  font-size:2vw;
+}
+
+h3 {
+  font-size:1vw;
+}
+
+h4 {
+  font-size:0.9vw;
+}
+
+h5 {
+  font-size:0.6vw;
+}
+
+h6 {
+  font-size:0.5vw;
+}
+
+body {
+  background-color: #141414;
+  color: #bcbcbc;
+  font-family: monospace;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+p {
+  line-height:1.5;
+  font-size:0.7vw;
+}
+
+ul {
+ line-height:1.5; 
+ font-size:0.7vw;
+}
+
+a {
+  color: #00c750;
+  cursor: url("cursor1.png"), auto;
+}
+
+@media screen and (max-width:800px) {
+  h1 {
+   font-size:2.5rem;
+  }
+  
+  h2 {
+   font-size:2rem;
+  }
+  
+  h3 {
+   font-size:1.5rem;
+  }
+  
+  h4 {
+   font-size:1rem;
+  }
+  
+  h5 {
+   font-size:0.6rem;
+  }
+  
+  h6 {
+   font-size:0.7rem;
+  }
+  
+  p {
+   font-size:1rem;
+  }
+  
+  ul {
+   font-size:0.7rem;
+  }
+  
+  .index {
+   font-size:2rem; 
+   width:100%;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  h1 {
+   font-size:2.5rem;
+  }
+  
+  h2 {
+   font-size:2rem;
+  }
+  
+  h3 {
+   font-size:1.5rem;
+  }
+  
+  h4 {
+   font-size:1rem;
+  }
+  
+  h5 {
+   font-size:0.6rem;
+  }
+  
+  h6 {
+   font-size:0.7rem;
+  }
+  
+  p {
+   font-size:1rem;
+  }
+  
+  ul {
+   font-size:1rem;
+  }
+  
+  .index {
+   font-size:1.4rem; 
+  }
+}
+
+.blinkies-container img {
+  width:8.1vw;
+  height:1.2vw;
+  margin-right:0.3vw;
+}
+
+.home {
+ display:flex;
+ flex-direction: row;
+}
+
+.stamps img {
+ width:5vw;
+ height:3vw;
+}
+
+.stamps {
+ width: 45vw;
+}
+
+#latestvid {
+ padding-top: 2vw; 
+ padding-right:2vw;
+ float:right;
+ margin-left:auto;
+ margin-right: 5vw;
+ text-align:center;
+}
+
+#latestvid iframe {
+ width: 30vw;
+ height: 16vw;
+}
+
+#koopaimg {
+ padding-top: 2vw; 
+ padding-right:2vw;
+ margin-bottom:2vw;
+ float:right;
+ margin-left:5vw;
+ width:38vw;
+ height:22vw;
+}
+
+
+.next {
+  display:flex;
+  flex-direction: row;
+  margin-top:1vw;
+}
+
+#vertgallery {
+ width:21.5vw;
+ height:40vw;
+ overflow-y:auto;
+ overflow-x:hidden;
+ margin-right:2vw;
+ margin-top:2vw;
+ margin-left:5vw;
+ padding:1vw;
+ border: 0.2vw solid #d5d5d5;
+ scrollbar-width: none;
+}
+
+#vertgallery img {
+ width:21.5vw;
+ height:auto;
+}
+
+#desktopart {
+ width:45vw;
+ height:auto;
+}
+
+#thatsme {
+ margin-left:5vw;
+ margin-top:5vw;
+}
+
+#thatsme img {
+ width:10vw;
+ height:10vw; 
+}
+
+#divider1 {
+  margin-bottom:2vw;
+  width:45vw;
+  height:1vw;
+}
+
+#divider2 {
+  margin-top:2vw;
+}
+
+.third {
+  display:flex;
+  flex-direction:row;
+  overflow-y:auto;
+  margin-bottom:3vw;
+}
+
+.blessings {
+  height:15vw;
+  width:50vw;
+  margin-top:1vw;
+  line-height:2;
+}
+
+.prayers {
+  height:15vw;
+  width:50vw;
+  margin-top:1vw;
+  margin-left:5vw;
+  line-height:2;
+}
+
+.heading {
+  text-align: left;
+}
+
+.accounts{
+  padding-top:0.5vw;
+  padding-bottom:0.3vw;
+  padding-right:0.7vw;
+  padding-left:0.7vw;
+}
+
+.accounts img {
+ width: 1.2vw;
+ height: 1.2vw;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 0.8vw;
+  padding-bottom: 0.8vw;
+  border: 0.2vw solid #d5d5d5;
+  font-weight:bold;
+  font-size:1.5vw;
+  width:100%;
+}
+
+.gallery.chunk {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding:1vw;
+}
+
+.gallery img {
+ height:20vw;
+ width:auto;
+}
+
+.gallery {
+ line-height: 1.5; 
+}
+
+.leftbox {
+  width: 45vw;
+}
+
+.leftlist {
+  width: 45vw;
+}
+
+.leftlist li {
+  line-height: 1.5;
+  margin-bottom:0.2vw;
+}
+
+.blogpost {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 1.5;
+  border: 0.2vw solid #d5d5d5;
+  padding-left: 2vw;
+  padding-right:2vw;
+  margin-top:1vw;
+  margin-bottom:1vw;
+}
+
+.blogwords {
+  width: 45vw;
+}
+
+.blogwords p {
+  line-height: 2;
+}
+
+.blogimg {
+ border: 0.3vw solid #d5d5d5;
+ margin-top: 2vw;
+ margin-bottom: 2vw;
+ margin-left: 2vw;
+ height:auto;
+ width:auto;
+ max-width:40vw;
+ max-height:40vw;
+}
+
+.credits ul {
+  font-size:0.7rem;
+  line-height: 1.5;
+}
+
+.statblock {
+  font-size:1.5rem;
+  list-style-type: none;
+  padding:0;
+  margin-top:2vw;
+  margin-bottom:2vw;
+}
+
+.statblock ul {
+  font-size:4rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 0.2vw solid #d5d5d5;
+}
+
+#stat1 {
+ margin-left:2vw; 
+}
+
+#stat2 {
+  border-left: 0.2vw solid #d5d5d5;
+  border-right: 0.2vw solid #d5d5d5;
+  text-align:center;
+}
+
+#stat2 ul {
+  padding:0;
+  margin:0;
+}
+
+#stat3 {
+ text-align:right;
+ margin-right:2vw;
+}
+
+#stat3 ul {
+ margin-right:2vw; 
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left:2vw;
+}
+
+.aboutchunk {
+  width:20vw;
+}
+
+.aboutchunk li{
+  line-height:2;
+}
+
