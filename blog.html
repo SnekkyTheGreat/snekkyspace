@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="icon" type="image/x-icon" href="icon3.png">
+    <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  
+  <template id="blinkies">
+	<img src="https://64.media.tumblr.com/fbedb5bed9ef771d0cacebf46c252c24/a5f312680aee2872-37/s100x200/37a3dcb7454e2ac4006e7909a705eebfa497e04d.gifv" width="150" height="20" alt="blinky gif with little bones">
+      <img src="https://64.media.tumblr.com/7fb3dfb02ad1241361582d1d5db38ff4/a5f312680aee2872-dd/s100x200/a17d3234da76f083d56036708aa0f4568e93bdd8.gifv" width="150" height="20" alt="blinky gif with a keyboard">
+      <img src="https://64.media.tumblr.com/516cecb16e7a9d08bed507834eeddadb/363752070e93a7f9-11/s250x400/558a8c6b03c45436844acc8129d6c88e6344fed7.gifv" width="150" height="20" alt="blinky gif saying Let's get creative!">
+      <img src="https://64.media.tumblr.com/a399188d7b65d88a6da0f165fb250b9a/363752070e93a7f9-4f/s100x200/6c65129d3917f45af428187b1ad7ec13fd273b70.gifv" width="150" height="20" alt="blinky gif saying I am cringe but I am free">
+      <img src="https://adriansblinkiecollection.neocities.org/c60.gif" width="150" height="20" alt="blinky gif saying Monty Python">
+      <img src="https://adriansblinkiecollection.neocities.org/b29.gif" width="150" height="20" alt="blinky gif saying rowr">
+      <img src="https://adriansblinkiecollection.neocities.org/b20.gif" width="150" height="20" alt="blinky gif saying weezer">
+      <img src="https://64.media.tumblr.com/ca9eb9815e32a718de820e12d688bfe5/c4fbf0f43dcfb63f-2a/s250x400/bce96051042ed2bcbcb6cb64a5f5cf2eab2be709.webp" width="150" height="20" alt="blinky gif saying Just say hello">
+      <img src="https://adriansblinkiecollection.neocities.org/e28.gif" width="150" height="20" alt="blinky gif saying I pop bubble wrap">
+      <img src="https://adriansblinkiecollection.neocities.org/f36.gif" width="150" height="20" alt="blinky gif saying Paramore">
+      <img src="https://adriansblinkiecollection.neocities.org/h9.gif" width="150" height="20" alt="blinky gif saying Spirit Phone">
+      <img class="blinky" src="https://dl10.glitter-graphics.net/pub/485/485100pcc1kskzgw.gif" alt="blinky gif saying I love Jesus and He loves me">
+  <img class="blinky" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfrp0s2-33bbe4c2-1402-4a70-bcdf-199d45198fd3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9kYmQwNmU2ZS1iMzEzLTRhY2MtODBkNy0yZjc2MDI2YzgxNzEvZGZycDBzMi0zM2JiZTRjMi0xNDAyLTRhNzAtYmNkZi0xOTlkNDUxOThmZDMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Q09uyp8FgGwY2aQpPINglufRRdBIfu5iFLHDaVMmozY" alt="blinky gif saying I have ADHD">
+  <img class="blinky" src="https://forums.terraria.org/index.php?attachments/tumblr_l_16870244268354-gif.395592/" alt="blinky gif saying he was a punk she did ballet">
+  <img class="blinky" src="https://lh6.googleusercontent.com/proxy/R9ifkZDIeU0iCvvlSFjADE988-Ub9EZH7eKiNEjQsUOwKGXaWgVv55QIyEAG9jeeUsmeZ5Jylb0ZSt5ctFV-LzCJWwhJ7FiJO9S7kg2ETaTB32nR4juigweXMQ=w1920-h953?auditContext=forDisplay" alt="blinky gif saying JustAChillGuy">
+  <img class="blinky" src="https://lh3.googleusercontent.com/proxy/yvLYXW6EtcKQgWWQMqRx07oOOneUwyZCaYYZ2eC2hsrZRcJ2Fo_igfbE3e3bxAUR3vL5Qy2zIEURXuMMv_uQhgElNeGIrfJFR0SODyW40hbwazJJ9M8" alt="blinky gif saying Miku fan">
+  <img class="blinky" src="https://lh6.googleusercontent.com/proxy/KC4k9VZqjfnLN-jqiKXlo4pqM7vy8JEeIClGJcuqU-AEefBih1T-pq40uGdosat4V1xnpufEVYHZ9P6SOuGp23GcgYi3khMRXSIDvaYv4Mj0-PP08iUGPE_kxw" alt="blinky gif saying I love Alex Kralie">
+  <img class="blinky" src="https://lh5.googleusercontent.com/proxy/wzxgMqpzIMe8tmPOk2Uf9J7OUbOu-n5WD41HX2PdKQFVE-OVWBx4ZrnalLrQybJMl-g0lfqIBzY74dwnhbXODguzHcwfdzwrRw9Eu927Y5LQ18aiRI61oA" alt="blinky gif saying I love you guys">
+  <img class="blinky" src="https://forums.terraria.org/index.php?attachments/tumblr_l_524242917867093-gif.379009/" alt="blinky gif with the my chemical romance logo">
+  <img class="blinky" src="https://lh5.googleusercontent.com/proxy/6cXoBKPG1MluKnttneLCe66Qpk8QHWApVFFfV_xSTTh41x9IOdgeSpIDRT9spnoKWRaYGG1DRpsUNuHS7X5mVUgkjhRr4jhsHWxjIQGAPrPrhfwxs-FEfofz" alt="blinky gif saying sending hugs">
+  <img class="blinky" src="https://64.media.tumblr.com/449c9a8e4ef6a592986545d66cfd6293/d7c8e1e27ba25e4c-c2/s250x400/8df3f1b8ad37a834723a844a6397d7c139ded8f3.gifv" alt="blinky gif saying I love snakes">
+  <img class="blinky" src="https://64.media.tumblr.com/19abe730556e2191c678d2d6ce0ba0b3/32a6b1ac5ae31ef9-e3/s250x400/56d2162c29459a6dc91ed26b162c9646c276c91d.gifv" alt="blinky gif saying I love thrift stores">
+  <img src="https://c.tenor.com/kcl5suBMJ0cAAAAC/tenor.gif" alt="blinky gif saying TOTHEARK">
+      <img src="https://mildcicada.neocities.org/ceaselesswatcher.gif" alt="blinky gif saying Ceaseless Watcher">
+      <img src="https://external-media.spacehey.net/media/srDJIFL5hEIF_aIKyHiib4emdqnFmL2mi-VAfQOi8-Lc=/https://64.media.tumblr.com/47f4b7ee80d396c20c005cd604f45812/14f019af67cfc68d-a2/s250x400/1a523532a470228cf867e224e1c8258e52d70192.gifv" alt="blinky gif saying It's Me">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d54f32ff-4b24-45fd-b610-0c039057d0e6/dl3i2pu-528c0e16-d759-4fb1-bd86-ab9039045fbe.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9kNTRmMzJmZi00YjI0LTQ1ZmQtYjYxMC0wYzAzOTA1N2QwZTYvZGwzaTJwdS01MjhjMGUxNi1kNzU5LTRmYjEtYmQ4Ni1hYjkwMzkwNDVmYmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sI9evmehRKHlvCgU5R9UYufVvQH6crvd8UBuMHCkvLg" alt="blinky gif saying This User Loves Neru">
+      <img src="https://64.media.tumblr.com/1a393dd3533be1b8b975d43f0553b4b3/7acdfcead19f0c36-32/s250x400/a25e2cf82e680ced6546972ce85d5657a103ea97.gifv" alt="blinky gif saying Welcome to Night Vale">
+      <img src="https://64.media.tumblr.com/f43d3bd4a2a72b859be0096fe2e9c8eb/7b55a7e54e281da5-e2/s250x400/e61ca0db048376dae07bb2b1e266ac175a0b03b8.gifv" alt="blinky gif saying Malevolent">
+      <img src="https://64.media.tumblr.com/ff941e5c8e6d12238dbe6294b52e974c/7b55a7e54e281da5-d6/s250x400/d229e7a81b13262f51623f14f0a1ac300289389a.gifv" alt="blinky gif saying Magnus Archives">
+      <img src="https://64.media.tumblr.com/f8cf3e045c7e6acb03e5ff942da66ba9/c56a4856587bf371-69/s100x200/d6848101db3cabacfb56b1b6069e633c5deecbb7.gifv" alt="blinky gif saying Fight ignorance not immigrants">
+      <img src="https://64.media.tumblr.com/8f246c50d65f0e9a661a04c155d813ec/244fdab6b045e016-a8/s250x400/205b446cbeb49a41d591b92ac9ef055ffe1fa075.gifv" alt="blinky gif saying attracted to shiny objects">
+      <img src="https://64.media.tumblr.com/169617117198eb71dfda6b08d624b92d/cb652a9577bf0a22-39/s100x200/932cb654735b58147b045759a4423a5566349725.webp" alt="blinky gif saying Oh worm">
+      <img src="https://64.media.tumblr.com/3cd6eaa43e667c7a9e687710e9df0cc4/cb652a9577bf0a22-2a/s100x200/1edba79bb778f823ee85f4453589469c3c9c85e7.gifv" alt="blinky gif saying Bad website design">
+  <img src="https://64.media.tumblr.com/15f81b32255c816537fb41fa01b39d4e/cb652a9577bf0a22-84/s100x200/c9d6eda9a6e88eda3d143e8c8676ba9338233fe1.gifv" alt="blinky gif saying nyan nyan nyan">
+    <img src="https://64.media.tumblr.com/a4cca1232b1f15b791c5e7d5b6eaf7d5/5732e589548c1c67-af/s250x400/a7f539d2694a3a1fac42de151bc3b7cb8e5ec58a.gifv" alt="blinky gif saying Don't ragebait me I'll fall for it">
+    <img src="https://64.media.tumblr.com/4faa4f4104fc402c875224786de34be4/b18aff3ce9323114-61/s100x200/54db9163cb6597393db9046b9cbcec1eb40c445a.gifv" alt="blinky gif saying click click click">
+    <img src="https://64.media.tumblr.com/330d060104f1627a2f50beed5b5fc9f8/a2b9a9b92798b874-46/s100x200/1f6a467a26e20d6bea991001722db52f4775ef47.gifv" alt="blinky gif saying fish">
+    <img src="https://64.media.tumblr.com/3c9e2694fa9a21832cfcee553b05115e/c7622e3007499f41-da/s100x200/bce8ae39e6bf42d380837bb5a24199d7aa80bc5e.webp" alt="blinky gif saying no eyed girl">
+    <img src="https://64.media.tumblr.com/8bcee53282e3138cfd102410340877e6/0f3ad1aff0d9e5ba-49/s100x200/eb7786d4c66c9ae6b776bb015efb17215a4cc36b.gifv" alt="blinky gif saying press any key to continue...">
+    <img src="https://64.media.tumblr.com/6bc0d30a188342a200824e1f4fb0a096/ec4e0e3064314d61-95/s75x75_c1/188099f20ab3d825c3862f7c5906fb6e409f355a.gifv" alt="blinky gif saying bless">
+    <img src="https://64.media.tumblr.com/9548c8ceb74783f4d940bf36c78eae12/4563b7e1e7a264b5-11/s100x200/d68da43b4c2f40fba3dcac20f593d783755e326b.gifv" alt="blinky gif showing a glitch effect">
+    <img src="https://64.media.tumblr.com/c87f5bedb3363794f6ea568b40d6ffea/4563b7e1e7a264b5-be/s100x200/b882fe4c44034d5a44377cbcd4a7f77ce25a1e5d.gifv" alt="blinky gif saying pierce the veil">
+    <img src="https://64.media.tumblr.com/fe3f57bcdbce7c936587da9fa6858498/89b7d41ded9e8c58-b1/s250x400/8b27847b510faadbd3ee233e97faaf1247be4b65.gifv" alt="blinky gif saying I love L Lawliet">
+    <img src="https://64.media.tumblr.com/77d6f09d14209bb0de6766bf3a063083/75b5b68ba6c92fb8-6a/s250x400/91a72ed2f1b835fc0093be3c5b6bc443dac5ca05.gifv" alt="blinky gif saying Light Yagami">
+  <img src="https://64.media.tumblr.com/89c2bdafc62c256206ff5deca2cec470/98bbee3e60f72a2d-f5/s250x400/787f9d30d73302d0f5fcf936d4fcf985e481e9a2.gifv" alt="blinky gif saying it is quite unpleasant in here">
+    <img src="https://64.media.tumblr.com/9fbfcc1991692f809f5b2ace312927a0/fe82126f926f5fd0-69/s100x200/0cdfad60b3ce65dc57dd6ed0722596cd26429cb9.gifv" alt="blinky gif saying Death Note">
+    <img src="https://64.media.tumblr.com/ad0c9164e95be3ad8a85ff4e995732cc/fbb5387a14a93f6b-cb/s250x400/a6323f0ee8ff0d7b1a416a67822f2609598dc04b.gifv" alt="blinky gif saying Mindless Self Indulgence">
+    <img src="https://64.media.tumblr.com/c6b195cb7f5a45a42993cb0eb933fa6f/2fe0cef72a93c730-f6/s250x400/9cfb0111958fb4ff7c42d86cbb9076bf145f3696.gifv" alt="blinky gif saying Regretevator">
+    <img src="https://64.media.tumblr.com/61dd4935aa74e842ba76e535cdf2d3b5/75b5b68ba6c92fb8-57/s100x200/b3bb90e4a59bccffcc8790b0759a46a761958dd3.gifv" alt="blinky gif saying I'll take a potato chip... and eat it!">
+    <img src="https://64.media.tumblr.com/ecbc1b9ea8824c2e01f83f3ecaebf1d8/8fcadf83a958a458-0c/s250x400/86f621ef09b47526ac806baed4c9ef3bb5fe6a33.gifv" alt="blinky gif saying Fafa">
+    <img src="https://64.media.tumblr.com/dade468a8e96bec19d8de2a6103755d0/fbb5387a14a93f6b-26/s250x400/ef81946e2c64760a6f4a1bedacb83e74de626a76.gifv" alt="blinky gif saying Loading...">
+    <img src="https://64.media.tumblr.com/f8c1eca6f008e2ef52dc4d96cee479d3/8fcadf83a958a458-37/s250x400/36da7704734f72f5b082cac0b6f5e15f8a825662.gifv" alt="blinky gif saying Gray Stuff Drinker">
+    <img src="https://64.media.tumblr.com/bcfdef78acb2610f23aa31a7610babac/8598b0846f032fb1-3a/s100x200/2cc928014894599278f3bc7ffa51385a08a4eb15.gifv" alt="blinky gif saying Sup, I'm here if you need me">
+    <img src="https://64.media.tumblr.com/bc493071fb521fe1eca5fd2355f2d75d/8136636d1871601a-ad/s250x400/e7f3bc6ecf65baa25a72238e406f3c993c4d58d4.gifv" alt="blinky gif saying tough guys wear pink">
+    <img src="https://64.media.tumblr.com/26133e6afca3308f30801dba79444c24/cb6150ff7b6c1e1f-e1/s250x400/42d155eb31f95708d7574582023904d42f04ed54.gifv" alt="blinky gif saying Bive">
+    <img src="https://static.wikia.nocookie.net/d4a8e803-5af0-4145-9e94-855830bb2bc2/scale-to-width/755" alt="blinky gif saying weezer">
+      <img src="https://64.media.tumblr.com/2c16215a72485b0b98f6e2beb114ea67/c4fbf0f43dcfb63f-e1/s250x400/7237cd3ec61ebfc15f15a80a93ef33ce4bb8e820.webp" alt="blinky gif saying Blink-182">
+      <img src="https://64.media.tumblr.com/5a8327bf2d860402567ecaf386dbe031/0ff738aae3bed445-28/s100x200/02400df072b22a8a3768eed17dbb71237873a662.gifv" alt="blinky gif saying The Twilight Zone">
+      <img src="https://64.media.tumblr.com/c74a35659fd1ca684c9d85058bd7cf3c/132c09c2386dbe24-c3/s100x200/4bfb0181fd89f226ebdabf74db39007b3098ac3b.gifv" alt="blinky gif saying I don't wanna grow up!">
+      <img src="https://64.media.tumblr.com/ad3a2d94a168088919f439b8b56c7870/cfd99d6caad44518-47/s100x200/b2e32ebd5c2f33c8fc2cd1cf502bc40671ff919a.gifv" alt="blinky gif saying Emo">
+      <img src="https://64.media.tumblr.com/451be83b603a02bf46c60dcd81fb8553/4650c263c2440927-d2/s100x200/29fc3b6f35ed12487114416ddc4aaa6b813d467a.gifv" alt="blinky gif saying I don't do normal">
+      <img src="https://64.media.tumblr.com/20a5d25ecf0c5605ef13514d093610e1/b444505710594a69-2e/s100x200/2ac1e39c2e784bd4f33c3b22f8818c3a074d41e6.gifv" alt="blinky gif saying Let's all be friends">
+      <img src="https://64.media.tumblr.com/2c4a20c7606cf86dbd3fdfa5675eb34a/f8c08c604d48109d-c9/s100x200/2cc4f807dd1bfb408aff8f2dd7a58cd07b5f3c0e.webp" alt="blinky gif saying Underachiever">
+      <img src="https://64.media.tumblr.com/c2ac353e268bae5ae09d98223c9046a6/9c3eb37a74c1e43f-d4/s100x200/58e5c4b6001bd74b049ac407c5c3a90182096466.gifv" alt="blinky gif saying Triple Baka">
+      <img src="https://64.media.tumblr.com/e557f3aee203cd99bd2c0ac5bc9796cb/9c3eb37a74c1e43f-65/s250x400/77fea490961b7367f460c2a476e81226a316d566.gifv" alt="blinky gif saying AWOOOOOOO">
+      <img src="https://64.media.tumblr.com/f88bde6843bfbcd218562caa781a75b2/232c137d8eadfebc-7d/s250x400/3457e44fb0c71ff2d35f9d4b1614c7f9dbb2d20d.webp" alt="blinky gif saying Hair spray! COUGHHJ">
+</template>
+  
+  <div class="heading">
+      <h1>The Snekky Space</h1>
+      <h3>Welcome. Hope you enjoy your stay.</h3>
+      <div class="accounts">
+        <a href="https://www.youtube.com/@snekkythegreat" target="_blank"><img src="YT2.png" alt="YouTube"></a>
+        <a href="https://scratch.mit.edu/users/DangerNoodle851/" target="_blank"><img src="Scratch2.png" alt="Scratch"></a>
+        <a href="https://artfight.net/~SnekkyTheGreat" target="_blank"><img src="ArtFight2.png" alt="ArtFight"></a>
+        <a href="https://open.spotify.com/playlist/37Epb9WPtXWU6lmnlfcgsk" target="_blank"><img src="Spotify2.png" alt="Spotify"></a>
+        <a href="https://www.tumblr.com/blog/snekkythegreat" target="_blank"><img src="Tumblr2.png" alt="Tumblr"></a>
+      </div>
+    </div>
+    
+    <div class="index">
+        <a href="https://snekkyspace.neocities.org">Home</a>
+        <a href="https://snekkyspace.neocities.org/blog">Blog</a>
+        <a href="https://snekkyspace.neocities.org/projects">Projects</a>
+        <a href="https://snekkythegreat-comms.carrd.co/" target="_blank">Commissions ↗</a>
+        <a href="https://snekkyspace.neocities.org/beliefs">Beliefs</a>
+        <a href="https://snekkyspace.neocities.org/fastfacts">About Me</a>
+        <a href="https://snekkyspace.neocities.org/contact">Contact Me</a>
+    </div>
+    <br>
+    <div class="blinkies-container"></div>
+
+<script type="module">
+	const template = document.querySelector("#blinkies");
+	const container = document.querySelector(".blinkies-container")
+
+	const arr = Array.from(template.content.children)
+		.sort(() => Math.random() - 0.5);
+
+	const NUM_ITEMS = 11;
+	for (let i = 0; i < NUM_ITEMS; i++) {
+		container.append(arr[i]);
+	}
+</script>
+    
+    <h3>Here's the blog portion of my site. Updates when I'm feeling like it.</h3>
+    <br>
+    
+        <div class="blogpost">
+        <div class="blogwords">
+          <h4>Spring Retreat</h4>
+          <h6>4/18/26 7:43pm</h6>
+          <p>So I'm on the spring  retreat with my youth group. We're at an air b&b or something, and there is no water. This is likely the fault of a data center being built nearby. We're right on a lake, but we can't use any of the water from the lake because it's full of pollen, and it's a lake built to cool a nuclear power plant, so it would be a little iffy to drink it. Our leaders are considering moving to a different air b&b, but no one is communicating with them from the company or whatever. I hope we don't have to move because my kayak is inflatable, and it would be annoying to have to pack it up.<br>On the other hand, we literally have no water. Like at all. We have ice cubes that we can melt but those will run out. We have juice, but I dont like juice that much.</p>
+          <h6>Thirstily,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Changelog</h4>
+          <h6>4/8/26 12:25pm</h6>
+          <p>Added a credits section to the bottom of the home page. If I'm using one of your assets and I didn't credit you properly, please don't hesitate to reach out and I'll fix it! I have not had lunch yet. My skinny jeans are cutting off blood flow to my feet and my feet have fallen asleep. Let's see if I can make it up the stairs to the kitchen without falling. If you never hear from me again assume I have died by falling down the stairs due to my feet being asleep from lack of blood flow caused by skinny jeans.</p>
+          <h6>Hungrily,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Oh uh quick note</h4>
+          <h6>4/5/26 8:35pm</h6>
+          <p>If you're coming from the memesbeansetc. group chat try not to read too far into some of the stuff in the blogs, especially the ones that are late at night or from late february -> early march. Remember that I'm human, I experience emotions, and also that these may not be about you. I've got other friend groups and stuff going on. If you have a concern please DM in a respectful manner.</p>
+          <h6>Not exactly apologetically but not really defensively either,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>My medication has been changed again!</h4>
+          <h6>4/5/26 2026 8:04pm</h6>
+          <p>And this time I think its helping! Last one, the Jornay, gave me little to no actual effect, made it hard for me to sleep, and made me really depressed. I'm on Concerta (?) I think now, which as far as I know seems to be the Adderal of methylphenidates, like the main one most people think of. It seems to be working well! I've been focused, I haven't been as frustrated, and I'm feeling better in general. I'm also planning on sending the link to my website the the group chat, which has for better or worse gotten back together again. I still feel ignored sometimes but honestly that's probably my fault since I complain a lot and it's probably hard to know what to say in response to all my negativity. To be fair to them, I think a lot of our thought processes are fundamentally different by merit of us all being different people. That fact has been a hard one for me to wrap my head around, probably in part due to be homeschooled and not really having friends -- at all, it's not that I had toxic friends before. I just hadn't really had friends since maybe third grade -- during my middle school years. I have a lot of friends now, and being the oldest, there's a lot of responsiblity that I have. I'm supposed to be able to give advice. I assume that when people complain they're asking for advice, since usually when I complain I'm asking for advice, but that's not always the case, and it's gotten me into trouble. I dunno. I should have a counter on my site that actively tracks how many times I've said I dunno on here. Maybe if I can get a bit better at JavaScript I can do that. I've asked on the neocities subreddit for how I can make the blinkies on the top of each page random, so maybe I can learn some while I"m there. I'm also going to increase the line spacing since it's a little hard to read sometimes. Anyways I'm getting off track. Do you think making the text color a bit darker might help with visiblity? I could try that. I'll try that. <br><br>
+            Also! Happy Easter! Christ is Risen! I went to the sunrise service this morning and I had brought my sketchbook to draw some stuff but I had forgotten a pencil. Sad. I made a paper crane though! I love making paper cranes. Paper cranes are fun. They can fly if you like grab them by the butt and then pull on the neck gently. They flap their little wings. It's fun. Man when I don't straighten my hair I both look and sound like the thirteenth doctor. Whittaker is a brilliant doctor by the way. Not just cause she looks like me, but she's also a lot like me in that -- ok all the doctors have ADHD that's pretty certain just look at them -- but she's like the most hyperactive of all of them except for maybe eleven, and that's a close call. I haven't seen all of thirteen's episodes yet, but I'm about to get to the whole timeless child bit which plotwise I've always found a bit iffy (yeah I've seen some spoilers sue me) but like it's Doctor Who. If you don't like it then it doesn't have to be canon. I don't like RTD using AI. I don't want Doctor Who to be an AI show. AI generating videos is sucky for the environment and for quality. Like take the lost episodes for instance, if they were to be recreated with AI I bet RTD would be all over that, but it's dumb and bad because real actors and writers and costumes designers and makeup artists and foley artists and mic operators and camera operators and gaffers and all of the jobs that go into filmmaking worked on it! And you're erasing their work because ooh haha funny computer do it for me! No! If you legitimately support using AI for explicitly replacing creative works then I'm sorry but I can't associate with you. Get off my page. "Oh but the lost episodes are lost, they'll never be found" WELL WE JUST GOT TWO NEW EPISODES OF THE DALEKS MASTER PLAN SO SUCK IT!!!! <br><br>
+              My bad. Got a bit heated there. OOH OOH AND AND UH I JUST FINISHED A FANFIC I'VE BEEN READING AND ASIUGALFIUHDLKHJA:SODIJ:DLGKH:LADSKJA:SOIJMALSKJ:LSDKJF:ALKSJD:LASKJD:LKDGHLJDHFLAKSHGFLAKSJDGLKDJGHKJDSFGLAKSJDHLKDJFHLKDSJFH I DONT WANT IT TO ENDDDDDDDDDDDDDDD It's called uh hold on I can never remember the name of it because I always just click on it immediately in the email on my phone which cuts off the full title but it's by TheGhostOwl it's called <a href="https://archiveofourown.org/works/62182273?view_full_work=true">In The Wake Of Fear.</a> Let me link it. There we go. Forgot how to do the tag for a sec. If you like the Magnus ARchives READ IT. READ IT. DO IT. EXCELLENT MASTERFUL WORK RIGHT HERE. TRUST. I'm drawing fanart of it once I get the time. I've got a really vivid mental image of a scene. Well, two scenes. I'll probably draw both of them. Ok I gotta go fix the formatting.
+          </p>
+          <h6>Fantastic, splendid, brilliant even,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>My medication has been changed</h4>
+          <h6>3/20/2026 9:29pm</h6>
+          <p>Currently playing the your ai slop bores me game. Very fun. I stopped taking Vyvanse because I wasn't getting a good amount of focus from it, and it was making me shake a lot. I've switched to this relatively new one called Jornay PM, it's supposed to be taken at night and it releases in the morning. I was on the 20mg for a week, and it helped a little bit, but not nearly enough. I was still struggling a lot. I did notice that I was sleeping a bit more lightly. I just took the 40mg like fifteen minutes ago. I hope I can get to sleep and that tomorrow I can get more schoolwork done. I know it's a Saturday tomorrow but I've got a lot of catch up work to do. Another effect I've noticed is that I've been crashing after it wears off in the afternoon, but I think that might be correlation rather than causation. I've been doing a lot of stuff today and yesterday and the stress has been getting to me. I could really go for another seltzer right now but I don't want to get up. I'm also supposed to be reading something for film class rnow (very long reading) and I can't bring myself to do it. I'm so tired right now.</p>
+          <h6>guh,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Oh my gosh shut up please</h4>
+          <h6>3/5/2026 9:14pm</h6>
+          <p>I hate my mother why can’t she leave me alone she’s so nosy and needs to know every single detail about everything like “what did you eat for dinner” “who was there” “what did you talk about over dinner” “what was the Bible discussion about” “Were you being social enough” “was this person there, why not” like please stop talking to me I have had such a long day and I am so drained and have a lot to do tonight and you’re doing the opposite of helping. And she’s started criticizing the way I dress too like “you need to dress more feminine” and “why do you look like a boy in all your pictures” and “do you really have to be so… edgy?” and “stop wearing tails places you’re embarrassing me” when SHES NOT EVEN THERE OR CONNECTED TO ME. Why does it bother her SO much. I’m not doing anything that’s hurting her, and I’m not doing anything that’s hurting myself or anyone else. Can she not be happy for me that I have found a way to dress that I like and fits my style? My nana is happy for me, and she’s politically conservative and you wouldn’t think she would support me breaking out of stereotypical gender roles but she does! She watches and supports my YouTube channel. Meanwhile mom never says anything about me or my channel that isn’t criticism. She’ll say that she’s proud of the stuff that I do but only when I ask her to or put it in her face. I don’t think she actually likes me, she just likes that version of me that she wants me to be.</p>
+          <h6>super low social battery,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Why can't I have a thing that's my thing without someone taking it from me</h4>
+          <h6>2/22/2026 12:30am</h6>
+          <p>When I got back from something or other at some point or other today (can't remember) I saw my little brother with my electric bass trying to play along to a song with it. I normally wouldn't have a problem with this, except 1) he didn't ask (even though it's not technically my bass, it's my parents' bass) and 2) his thing is supposed to be guitar. He's been trying to learn guitar lately and while I support that entirely bass is supposed to be my thing. I play both upright and electric, but I'm not going to be able to take the upright with me to college since I'm renting it. I'll likely be able to take the electric to college. I feel like people keep taking my niches. I used to be the smart one when I was in elementary school, but now I can barely write four paragraphs without a struggle. Former friend took my place as the artist in our friend group before it broke up because her homeschool program barely requires anything of her, and she's a freshman, and I'm a junior and I just don't have time. My sister is also better at art in certain styles than I am, though she always has been and honestly I don't resent her for that at all since that's her niche and wasn't really ever mine. With bass, I almost never have time to practice because of how busy I am. My brother shouldn't have time either, but he just ignores everything except practicing guitar or banjo. And now that he's starting to do stuff with the bass, I feel like he's going to take my niche there too. I feel like I'm clinging on to that because I'm not even that good at crafting, and every other niche of mine has been taken besides clarinet and clarinet is a really lame thing to have as a niche. If my brother starts doing bass, then I might not be able to do worship team anymore. I would miss opportunities to see C. Worse, I might be made to leave the electric behind when I go to college so he can use it since there aren't really any other bassists at youth group who could take my place when I graduate. I almost don't want someone to take my place. No, not even almost not wanting that, I really don't. Bass is my thing. It's simple, I'm not even that good at it, but I really like it and my brother is trying to take that from me I feel like. I just want to have a thing that I'm good at that's my own thing that isn't gimmicky like crafting. And I know that I have God and that's what I should have my main identity in, but everyone in my friend group also has their identities in God. It's not really a thing that I specifically can do well, whereas bass is. And if my brother gets better than me at bass I just know he's going to be super condescending like he always is to me despite him being thirteen and me being seventeen. I hate him sometimes.<br>I was meant to be in bed at 12. I have church tomorrow and I need to wake up early to shower. I still have exams left. I'm starting to see things moving in the corner of my eyes.</p>
+          <h6>lost,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>I am a lazy person</h4>
+          <h6>2/18/2026 10:39pm</h6>
+          <p>It is late. I am tired. I'm supposed to be working on my exams. I've got most of one question done, still have two more left for today. Am I working on it? No. I am pirating music because I don't want to have to rely on spotify so much because screw big tech. yt-dlp is awesome. So far I'm almost halfway done with my main playlist.</p>
+          <h6>Not exactly legally,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4> </h4>
+          <h6>2/18/2026 10:0am</h6>
+          <p>I don't think it's fair that I'm cramping and I'm not on my period. I need to keep better track of it cause honestly idek when it's due, but it's not yet. My stomach hurts. I'm not sure what it's from, but it's probably related to stress.</p>
+          <h6> </h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+      
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Oogh I'm so hungry</h4>
+          <h6>2/17/2026 3:59pm</h6>
+          <p>I'm at the library right now. I'm doing my work for my film class, which is a really long reading. It's about sound or something. I'm on page 281 and I'm reading to page 299, but I've been reading since page 263. I really need to start doing this earlier in the week. I didn't eat lunch, and I am very hungry. I already got a bag of potato chips from the vending machine here, but I don't want to spend more money if I can help it. My sister's shift ends in like half an hour, and I can leave then, but I also need to finish reading this. I also wanted to finish the third pocket on the tripp nyc pants, and I almost did. I still have like half of the pocket's flap left. It shouldn't take me very long but I can't exactly do it while I'm supposed to be reading. The quiz on this section is due tonight as well. I mean, technically it's due tomorrow, but tomorrow at 1 am, so basically tonight. I haven't even started on my exams yet. I haven't even looked at them. Not to mention that I'm so hungry I can barely concentrate. Normally my medication makes it so I'm not as hungry, but I guess it's not working today. I want fries. I want boba. Ugh. Maybe I can get boba tomorrow but only if I skip karate. I need to figure out my schedule with Lent and the wednesday services from that. Why is everything so hard?</p>
+          <h6>Thoroughly stressed (and hungry),</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4> </h4>
+          <h6>2/10/2026 8:36pm</h6>
+          <p>
+          > be me <br>
+          > trying to read film studies textbook <br>
+          > having trouble concentrating because it's late and meds have worn off <br>
+          > turn on femtanyl playlist to drown out brain sounds <br>
+          > it works for a bit, read successfully for about five minutes <br>
+          > mom comes in and starts playing the piano <br>
+          > it sounds good but it's too much stimulation now <br>
+          > can't focus anymore because even without femtanyl mom's piano music is still too much stimulus <br>
+          > cry <br><br>
+          seriously though when I practice clarinet which is a necessarily loud and annoying instrument I take it to the room in our house that's the most soundproof. I guess you can't really do that with the piano. Still why does the family desktop have to be right next to the piano room? Why don't I have my own PC? Well because they're too expensive, for sure. Stupid AI companies hogging all the RAM making it expensive as heck. I hope the bubble bursts soon. How will I afford a decent laptop when I have to go to college? I don't have a job. I'm seventeen and I don't have a job. This is really sad. The thing is though I really don't have time for a job. I suppose I'll have to get one over the summer. Maybe I'll have more time my senior year. I should really look at my projected transcript.
+          </p>
+          <h6> </h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Ugh I hate this and I hate myself</h4>
+          <h6>2/8/2026 11:22pm</h6>
+          <p>It is very late. I need to get up on time for school tomorrow. I was supposed to have a (very short very easy literally only five paragraphs) essay about George Washington's virtues (literally this is sixth grader type stuff) done by Friday (I had all week to do it) and I got an extension to Sunday which is today. Then I spent all day working on my Tripp pants and I didn't do this and my medication has worn off. I don't want to stay up any later because otherwise there's no way I'm going to be able to wake up on time and even now there's no way so I don't even know what I'm doing anymore. I'm just going to go to bed now and hope that I wake up on time because if I don't mom will have two reasons to be mad at me.</p>
+          <h6>Exhausperated,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>I dislike Gustav Holst</h4>
+          <h6>2/6/2026 6:59pm</h6>
+          <p>Ok don't get me wrong I really like his music, but I'm doing the march from his Suite for Military Band in F major or whatever and it is SO FREAKING HIGH and SO FREAKING FAST like bro there are only two clarinets we can't be expected to do all this (╥﹏╥) I can play it (barely) (with lots of squeaking and pausing and stopping) at less than half speed. Like look at this. Ughhh idk what I'm gonna do. I mean the only thing I can do is practice. So I guess I'm gonna do that.</p>
+          <h6>Thoroughly cooked,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+        <img class="blogimg" src="Holst.png" title="I'm so cooked" alt="Sheet music for the march from Suite for Military Band in F Major by Holst, with several exasperated remarks">
+      </div>
+    
+    <div class="blogpost">
+        <div class="blogwords">
+          <h4>Site opened for beta testing!</h4>
+          <h6>2/5/2026 11:32pm</h6>
+          <p>Wow it's late. Uh. Didn't realize how late it was. Anyways I'm now putting the link for my site in a couple of studios on scratch so that people can test it out and look around, see if they like it yk. I still haven't added actual selfies to the selfies gallery on the home page. I'll have to do that tomorrow since I'm out of screen time on my phone and I don't have any selfies on my computer. Anyway if you're here from scratch, thanks for checking this out! Let me know how you like it, things I could change, that sort of thing. Don't be afraid to be honest of course I need to make this as good as possible for my Dad.</p>
+          <h6>Hopefully,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+    
+      <div class="blogpost">
+        <div class="blogwords">
+          <h4>UHHH HELLO?? (っ˶>˶˶<˶ς)</h4>
+          <h6>2/4/2026 8:32pm (edited 2/5/2026 9:13am)</h6>
+          <p>OHMYGOSHOHMYGOSHOHMYGOSH Ok. C asked me if I [good thing], and we're doing it!!! We still have to work out the details but this is VERY GOOD!! I need to look at the [details] and see what we're doing for it. I'm (hopefully) going to [communicate]. AYGDFKUGYELIUGLASHGFKJGYLISGDJFHGANGLDHS THIS IS EPIC</p>
+          <h6>Excitedly,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+      </div>
+      
+      <div class="blogpost">
+        <div class="blogwords">
+          <h4>Hello World!</h4>
+          <h6>2/4/2026 12:35pm</h6>
+          <p>This is my first post on my personal blog on my personal website. Wow. The website is still under construction as I'm writing this, and it's pretty bare bones, but I think it looks ok so far. I'm trying to do this completely from scratch, without asking my dad for help. Making websites and things like that is the sort of thing he teaches in his classes, so I kind of want to try to impress him a bit with this. I dunno. I've taken his creative coding class, so I'm using what I remember from his class, plus whatever I learned messing around on my comicfury site way back when, plus stack overflow. I also wanted to make this so I have some sort of online outlet that isn't so social media infested. Sure, I'll still post on my social media accounts, but here will be sort of my home base. I hope it turns out well when I'm done with it. </p>
+          <h6>Adverbally,</h6>
+          <h6>~ Snekky</h6>
+        </div>
+        <img class="blogimg" src="sitealpha.png" title="This is what the home page of the site looks like as I'm writing this. Wow, it's really empty looking." alt="screenshot of this website in its early stages of development. There is a menu and a short introductory paragraph but nothing else.">
+      </div>
+  </body>
+</html>
